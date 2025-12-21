@@ -1,0 +1,14 @@
+[project]
+name = "yprov-cli"
+version = "0.1.0"
+description = "A CLI for interacting with the yProv provenance service."
+dependencies = [
+    "click>=8.0",
+    "requests>=2.25",
+    "rich>=13.0",
+    "appdirs",
+    "zstandard>=0.25.0",
+]
+
+[project.scripts]
+yprov = "yprov_cli:cli"
