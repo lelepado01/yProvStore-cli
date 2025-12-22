@@ -26,7 +26,7 @@ if errorlevel 1 (
 )
 
 REM Install the required packages
-uv pip install src/
+uv pip install .
 cd src/utils/blockchain/lib
 call npm install typescript
 call npm run build

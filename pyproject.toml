@@ -8,6 +8,7 @@ dependencies = [
     "rich>=13.0",
     "appdirs",
     "zstandard>=0.25.0",
+    "dotenv>=0.9.9",
 ]
 
 [project.scripts]

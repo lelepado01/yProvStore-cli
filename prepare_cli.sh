@@ -35,7 +35,7 @@ if ! command -v node &> /dev/null; then
 fi
 
 # Install the required Python packages
-uv pip install src/
+uv pip install .
 
 # Build the blockchain lib (install TypeScript and run the build)
 if [ -d "src/utils/blockchain/lib" ]; then
