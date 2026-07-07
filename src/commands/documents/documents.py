@@ -18,6 +18,7 @@ except ImportError:
 from .permissions import permissions
 from .metadata import metadata, local_metadata_schema, _get_field_type, _get_dict_fields
 from .graph import graph
+from .bundle import upload_bundle
 
 
 console = Console()
@@ -650,3 +651,4 @@ def download_document(ctx, pid, output, output_folder, trustworthy, compressed, 
 documents.add_command(permissions)
 documents.add_command(metadata)
 documents.add_command(graph)
+documents.add_command(upload_bundle)
